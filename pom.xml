@@ -70,9 +70,9 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>5.2.1</version>
 				<configuration>
-					<url>jdbc:mysql://localhost:3306/rest_db?useSSL=false</url>
-					<user>geek</user>
-					<password>geek</password>
+					<url>jdbc:mysql://192.168.0.107:3306/rest_db?useSSL=false</url>
+					<user>root</user>
+					<password>123123</password>
 					<schemas>
 						<schema>rest_db</schema>
 					</schemas>
